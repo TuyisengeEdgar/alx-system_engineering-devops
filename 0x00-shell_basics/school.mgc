@@ -1,5 +1,5 @@
 #!/bin/bash
 cp /bin/ls
 ls -la
-file --mime-type -m school.mgc *
+file -C -m school.mgc
 file -m school.mgc *
